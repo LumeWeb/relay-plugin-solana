@@ -1,0 +1,15 @@
+{
+    "name": "@lumeweb/relay-plugin-solana",
+    "type": "module",
+    "version": "0.1.0",
+    "scripts": {
+        "build": "bash build.sh"
+    },
+    "devDependencies": {
+        "@lumeweb/relay-types": "https://github.com/LumeWeb/relay-types.git",
+        "esbuild": "^0.15.5"
+    },
+    "dependencies": {
+        "@solana/web3.js": "^1.54.1"
+    }
+}
